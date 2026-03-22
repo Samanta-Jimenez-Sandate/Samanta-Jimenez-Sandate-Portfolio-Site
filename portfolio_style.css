@@ -230,13 +230,7 @@ body {
 
 /* Project walkthrough images */
 .project-page-img {
-  max-width: 100%;   /* Makes sure it never exceeds container width */
-  height: auto;      /* Keeps aspect ratio */
-  display: block;    /* Removes any inline spacing issues */
-  margin: 0 auto 20px auto; /* Centers the image and adds space below */
-  border-radius: 10px; /* Optional: rounded corners for style */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* Optional: subtle shadow */
-}
+max-width: 100%; /* Makes sure it never exceeds container width */ height: auto; /* Keeps aspect ratio */ display: block; /* Removes any inline spacing issues */ margin: 0 auto 20px auto; /* Centers the image and adds space below */ border-radius: 10px; /* Optional: rounded corners for style */ box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* Optional: subtle shadow */ }
 
 /* Portfolio Card Aesthetic — Behance style */
 .portfolio-card {

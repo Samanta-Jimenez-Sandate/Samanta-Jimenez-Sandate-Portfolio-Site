@@ -41,206 +41,215 @@
          alt="Project Screenshot"
          class="project-page-img">
 
-    <!-- ========================= PROJECT DETAILS ========================= -->
-    <section class="mb-5">
-      <h2>Project Type</h2>
-      <p>Nonprofit redesign project completed as volunteer work through the Develop for Good program.</p>
-    </section>
+    <!-- ========================= OVERVIEW ========================= -->
+<section class="mb-5">
+  <h2>Overview</h2>
+  <div class="row">
+    <div class="col-md-3"><strong>Role:</strong><br>UX Designer</div>
+    <div class="col-md-3"><strong>Team:</strong><br>Develop for Good</div>
+    <div class="col-md-3"><strong>Timeline:</strong><br>13 weeks</div>
+  </div>
 
-    <section class="mb-3">
-      <h3>My Role</h3>
-      <p>UX Designer</p>
+  <p class="mt-3">
+    <strong>Outcome:</strong> Improved curriculum accessibility for teachers and introduced 
+    structured analytics for admins, reducing friction in both content discovery and performance tracking.
+  </p>
+</section>
 
-      <h3>Contributions</h3>
-      <p>Stakeholder interviews, user journey mapping, wireframes, UI design, prototyping, and usability testing.</p>
 
-      <h3>Duration</h3>
-      <p>13 weeks</p>
+<!-- ========================= PROBLEM ========================= -->
+<section class="mb-5">
+  <h2>The Problem</h2>
 
-      <h3>Tools</h3>
-      <p>Figma, Miro, Google Workspace</p>
-    </section>
+  <p>
+    Culturally Relevant Science (CRSci) provides K–12 STEM curriculum, but all materials were stored 
+    in a large Google Drive system. This created significant friction for both teachers and administrators.
+  </p>
 
-    <!-- ========================= PROBLEM STATEMENT ========================= -->
-    <section class="mb-5">
-      <h2>Problem Statement</h2>
-      <p>
-        CRSci provides culturally relevant STEM curriculum to K–12 schools, but all materials were stored in a large
-        Google Drive folder. Teachers struggled to locate updated lesson files, and admins had no way to monitor
-        student exam performance. The lack of structure created delays, inconsistencies, and extra work for staff.
-      </p>
-      <p>
-        We asked: <strong>How might we create a platform where teachers can quickly access curriculum materials and
-        admins can easily track student performance?</strong>
-      </p>
-    </section>
-
-    <!-- ========================= UX PROCESS ========================= -->
-    <section class="mb-5">
-      <h2>UX Process</h2>
-
-      <!-- ========================= RESEARCH ========================= -->
-      <section class="mb-3">
-        <h3>Research</h3>
-  <p>We conducted user interviews and competitive analysis to understand teacher and admin needs, as well as how other educational platforms handle curriculum delivery.</p>
-
-  <h4>User Interviews</h4>
-  <strong>Teacher Insights:</strong>
   <ul>
-    <li>Ease of access is critical</li>
-    <li>Adaptability matters</li>
-    <li>Representation is valued</li>
-  </ul>
-  <strong>Feature Requests from Teachers:</strong>
-  <ul>
-    <li>Walkthrough/tutorial for new users</li>
-    <li>Feedback/comment sections for teachers to share suggestions</li>
+    <li>Teachers struggled to locate updated lesson materials</li>
+    <li>Content lacked organization and consistency</li>
+    <li>Admins had no visibility into student performance</li>
+    <li>Workflows were inefficient and time-consuming</li>
   </ul>
 
-  <strong>Admin Insights:</strong>
+  <p>
+    As a result, users experienced delays, confusion, and increased manual effort.
+  </p>
+</section>
+
+
+<!-- ========================= SOLUTION ========================= -->
+<section class="mb-5">
+  <h2>Solution</h2>
+
+  <p><strong>We redesigned CRSci’s platform into a structured, role-based learning hub.</strong></p>
+
+  <p>
+    The new system enables teachers to quickly find and use curriculum materials while giving admins 
+    tools to monitor student performance and engagement.
+  </p>
+</section>
+
+
+<!-- ========================= MY ROLE ========================= -->
+<section class="mb-5">
+  <h2>My Role</h2>
   <ul>
-    <li>Data drives decisions</li>
-    <li>Simplicity over complexity</li>
-    <li>Account and content control is important</li>
+    <li>Conducted user and stakeholder interviews</li>
+    <li>Mapped user journeys for teachers and admins</li>
+    <li>Designed wireframes and high-fidelity prototypes</li>
+    <li>Led usability testing and iterative improvements</li>
   </ul>
-  <strong>Feature Requests from Admins:</strong>
+</section>
+
+
+<!-- ========================= RESEARCH ========================= -->
+<section class="mb-5">
+  <h2>Research</h2>
+
+  <p>
+    To understand user needs, we conducted interviews with teachers and administrators 
+    and analyzed existing educational platforms.
+  </p>
+
+  <h4>Key Insights</h4>
   <ul>
-    <li>Visual usage reports</li>
-    <li>Notifications when new CRS content is published</li>
+    <li><strong>Ease of access is critical:</strong> Teachers need quick, reliable access to materials</li>
+    <li><strong>Adaptability matters:</strong> Content must be flexible across classrooms</li>
+    <li><strong>Data visibility is lacking:</strong> Admins need clear performance insights</li>
+    <li><strong>Simplicity over complexity:</strong> Users prefer intuitive, streamlined systems</li>
   </ul>
 
-  <h4>Competitive Analysis</h4>
-  <img src="https://i.ibb.co/PstQy2c1/Screenshot-2025-11-13-165447.png" alt="Competitive Analysis Diagram" class="project-page-img">
-  <p>We reviewed indirect competitors such as Khan Academy, CK-12, Code.org, OER Commons, and others to evaluate:</p>
+  <img src="https://i.ibb.co/PstQy2c1/Screenshot-2025-11-13-165447.png"
+       alt="Competitive Analysis"
+       class="project-page-img">
+
+  <p>
+    Competitive analysis revealed that while platforms like Khan Academy and Code.org 
+    provide strong content delivery, they often lack flexibility and customization 
+    for specialized curricula like CRSci.
+  </p>
+</section>
+
+
+<!-- ========================= DESIGN DECISIONS ========================= -->
+<section class="mb-5">
+  <h2>Key Design Decisions</h2>
+
   <ul>
-    <li>Navigation & Layout – how intuitively users could find resources</li>
-    <li>Visual Design – clarity, engagement, and accessibility</li>
-    <li>Content Discovery – search and filtering capabilities</li>
-    <li>Resource Interaction – preview, download, and customization options</li>
-    <li>Security Measures – access controls and file protection</li>
+    <li><strong>Structured curriculum library:</strong> Organized by grade and unit to reduce search time</li>
+    <li><strong>Preview-first interaction:</strong> Allows teachers to quickly evaluate lessons before downloading</li>
+    <li><strong>Role-based dashboards:</strong> Separate experiences for teachers and admins</li>
+    <li><strong>Simplified analytics:</strong> Clear visual summaries instead of complex data tables</li>
   </ul>
+</section>
 
-<h4>User Journey Maps</h4>
-  <p>We visualized teacher and admin workflows to identify opportunities for simplification and better access to resources:</p>
 
-  <p><strong>Teacher Journey:</strong></p>
-  <img src="https://i.ibb.co/qLZCp0S2/teach-joruneeeyyyy.png" alt="Teacher Journey Map" class="project-page-img">
-  
-  <p><strong>Admin Journey:</strong></p>
-  <img src="https://i.ibb.co/KzyjKMzV/teacher-joruney.png" alt="Admin Journey Map" class="project-page-img">
+<!-- ========================= USER JOURNEYS ========================= -->
+<section class="mb-5">
+  <h2>Understanding User Workflows</h2>
 
-      </section>
+  <p>
+    We mapped teacher and admin journeys to identify inefficiencies and opportunities for improvement.
+  </p>
+
+  <img src="https://i.ibb.co/qLZCp0S2/teach-joruneeeyyyy.png"
+       alt="Teacher Journey"
+       class="project-page-img">
+
+  <img src="https://i.ibb.co/KzyjKMzV/teacher-joruney.png"
+       alt="Admin Journey"
+       class="project-page-img">
+</section>
+
+
 <!-- ========================= WIREFRAMES ========================= -->
 <section class="mb-5">
-  <h3>Wireframes</h3>
+  <h2>Exploration & Wireframes</h2>
+
   <p>
-    I created low-fidelity layouts to determine structure and user flow. These allowed us to validate navigation
-    early with stakeholders before moving into visual design.
+    Early wireframes focused on simplifying navigation and validating information architecture 
+    before investing in visual design.
   </p>
 
-  <div class="row g-4 text-center">
-    
-    <div class="col-12 col-sm-6 col-lg-4">
-      <img src="https://i.ibb.co/Y73xHS1T/Screenshot-2025-12-25-192912.png" alt="Wireframe Screen" class="project-page-img">
-      <p class="caption">Curriculum lesson library</p>
-    </div>
-
-    <div class="col-12 col-sm-6 col-lg-4">
-      <img src="https://i.ibb.co/219gDt2J/Screenshot-2025-12-25-194026.png" alt="Wireframe 2" class="project-page-img">
-      <p class="caption">Unit Specific Resource Library</p>
-    </div>
-
-    <div class="col-12 col-sm-6 col-lg-4">
-      <img src="https://i.ibb.co/kgbfxhrw/Screenshot-2025-12-25-194311.png" alt="Wireframe 3" class="project-page-img">
-      <p class="caption">Lesson Preview Modal</p>
-    </div>
-
-  </div>
+  <img src="https://i.ibb.co/Y73xHS1T/Screenshot-2025-12-25-192912.png" class="project-page-img">
+  <img src="https://i.ibb.co/219gDt2J/Screenshot-2025-12-25-194026.png" class="project-page-img">
+  <img src="https://i.ibb.co/kgbfxhrw/Screenshot-2025-12-25-194311.png" class="project-page-img">
 </section>
 
-<!-- ========================= PROTOTYPES ========================= -->
+
+<!-- ========================= PROTOTYPE ========================= -->
 <section class="mb-5">
-  <h3>Prototypes</h3>
+  <h2>Final Design</h2>
+
   <p>
-    High-fidelity designs were built in Figma using CRSci branding. The goal was to reduce clicks, simplify resource
-    access, and create a smooth teaching workflow.
+    The final interface prioritizes clarity, efficiency, and structured workflows.
   </p>
 
-  <div class="full-screen-img">
-    <img src="https://i.ibb.co/nMDsfRWM/prototype-1.png" alt="Prototype 1" class="project-page-img">
-    <p class="caption">Home dashboard</p>
-  </div>
-
-  <div class="full-screen-img">
-    <img src="https://i.ibb.co/svfrSdkh/proto5.png" alt="Prototype 2" class="project-page-img">
-    <p class="caption">Lesson Description</p>
-  </div>
-
-  <div class="full-screen-img">
-    <img src="https://i.ibb.co/JW6GWcdP/proto4.png" alt="Prototype 3" class="project-page-img">
-    <p class="caption">Admin dashboard</p>
-  </div>
-
-  <div class="full-screen-img">
-    <img src="https://i.ibb.co/ymCjFghM/proto3.png" alt="Prototype 4" class="project-page-img">
-    <p class="caption"></p>
-
- <div class="full-screen-img">
-    <img src="https://i.ibb.co/nMDsfRWM/prototype-1.png" alt="Prototype 4" class="project-page-img">
-    <p class="caption"></p>
-
-  </div>
+  <img src="https://i.ibb.co/nMDsfRWM/prototype-1.png" class="project-page-img">
+  <img src="https://i.ibb.co/svfrSdkh/proto5.png" class="project-page-img">
+  <img src="https://i.ibb.co/JW6GWcdP/proto4.png" class="project-page-img">
 </section>
 
 
-      <!-- ========================= USER TESTING ========================= -->
-      <div class="mb-3">
-        <h3>User Testing</h3>
-        <p>
-          We tested prototypes with CRSci stakeholders. Feedback included the need to make file types easier to scan,
-          improve unit labels, and simplify the analytics page. We iterated on spacing, hierarchy, naming, and the
-          overall organization of the resource pages.
-        </p>
+<!-- ========================= ITERATION ========================= -->
+<section class="mb-5">
+  <h2>Iteration</h2>
 
-        <!-- INSERT: usability testing notes, testing session screenshots (blur sensitive info) -->
-        <!-- <img src="URL" alt="User Testing" class="project-page-img"> -->
-      </div>
-    </section>
-
-    <!-- ========================= FINAL DESIGN ========================= -->
-    <section class="mb-5">
-  <h2>Final Design Highlights</h2>
   <p>
-    The final prototype established a cleaner information structure and more intuitive navigation. Curriculum 
-    is now organized by grade and unit, reducing search friction for teachers, while admins gain a dedicated 
-    dashboard for monitoring student performance.
+    Usability testing revealed key areas for improvement:
   </p>
 
   <ul>
-    <li>Curriculum library with filtering + preview modal</li>
-    <li>Unit pages with downloadable resources</li>
-    <li>Admin dashboard with analytics + class performance tracking</li>
-    <li>Consistent UI theme using CRSci brand colors and typography</li>
+    <li>File types needed clearer visual differentiation</li>
+    <li>Unit labels were unclear and inconsistent</li>
+    <li>Analytics pages were too complex</li>
   </ul>
+
+  <p>
+    We refined hierarchy, labeling, and layout to improve clarity and usability.
+  </p>
 </section>
 
 
-    <!-- ========================= OUTCOME ========================= -->
-    <section class="mb-5">
-      <h2>Results / Outcome</h2>
-      <p>
-        The redesign improved clarity, reduced search time for lesson resources, and gave CRSci a foundation for
-        long-term growth. Our stakeholder reviews confirmed that the new structure is more intuitive for teachers and
-        provides admins with the visibility they previously lacked.
-      </p>
-      <p>
-        This project strengthened my communication skills, taught me the value of consistent components, and helped me
-        prioritize a large problem space within realistic constraints.
-      </p>
+<!-- ========================= OUTCOME ========================= -->
+<section class="mb-5">
+  <h2>Impact</h2>
 
-      <!-- INSERT: outcome stats, feedback quotes, impact summary graphic -->
-      <!-- <img src="URL" alt="Outcome Metrics" class="project-page-img"> -->
-    </section>
+  <ul>
+    <li>Reduced time required to locate lesson materials</li>
+    <li>Improved clarity and consistency of curriculum organization</li>
+    <li>Enabled admins to track student performance effectively</li>
+  </ul>
+
+  <p>
+    The redesign provided CRSci with a scalable foundation for managing and delivering 
+    their curriculum more efficiently.
+  </p>
+</section>
+
+<!-- ========================= REFLECTION ========================= -->
+<section class="mb-5">
+  <h2>Reflection</h2>
+
+  <p>
+    This project strengthened my ability to design for real-world systems where organization, clarity, and efficiency are critical. 
+    Working with a nonprofit client introduced constraints that required balancing user needs with practical implementation, 
+    reinforcing the importance of designing solutions that are both usable and feasible.
+  </p>
+
+  <p>
+    I learned that improving user experience isn’t always about adding new features, but often about restructuring information 
+    and simplifying workflows. By focusing on how teachers and administrators actually navigate their tasks, we were able to 
+    reduce friction and create a more intuitive system.
+  </p>
+
+  <p>
+    Overall, this project reinforced my ability to translate complex, unstructured systems into clear, user-centered solutions 
+    and to design with both user needs and organizational constraints in mind.
+  </p>
+</section>
 
 <!-- ========================= NEXT PROJECT BUTTON ========================= -->
 <div class="next-project-wrapper">
